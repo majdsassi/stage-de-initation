@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add any global styles */
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+  }
+}
